@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Mono:wght@100&display=swap");
+
+header {
+  background-color: #fcaf02;
+  padding: 20px 0;
+  position: sticky;
+  top: 0px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  padding-left: 58px;
+}
+.logo > img {
+  width: 100%;
+}
+nav div {
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  margin-right: 58px;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 25px;
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+}
+main {
+  background-color: black;
+  color: white;
+}
+.intro-section {
+  padding: 40px 28px 28px 58px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.intro-section > .box-1 {
+  width: 50%;
+}
+img {
+  width: 40%;
+}
+h1 {
+  margin-top: 30px;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.login {
+  margin-top: -60px;
+  width: 323px;
+  height: 66px;
+  background: #fcaf02;
+  border: none;
+  border-radius: 500px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 39px;
+}
+.contact-section {
+  margin-top: 70px;
+  padding-left: 58px;
+}
+.contact-section h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 78px;
+  color: #fcaf02;
+  margin-bottom: 10px;
+}
+.contact-section input {
+  width: 95%;
+  height: 30px;
+  background-color: black;
+
+  border: 2px solid #fcaf02;
+  border-radius: 100px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+::placeholder {
+  color: #fcaf02;
+}
+.contact-section .details {
+  display: flex;
+  justify-content: space-between;
+}
+.details .number,
+.details .city {
+  width: 47%;
+}
+.details .city {
+  margin-right: 30px;
+}
+.btn button {
+  background-color: #fcaf02;
+  font-weight: 700;
+  font-size: 22px;
+  padding: 5px 20px;
+  line-height: 39px;
+  border: none;
+  border: 2px solid #fcaf02;
+  border-radius: 100px;
+}
+.btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.table-section {
+  margin-top: 100px;
+  padding-left: 58px;
+  color: #fcaf02;
+  width: 95%;
+  padding-bottom: 50px;
+}
+table {
+  width: 95%;
+}
+th,
+td {
+  text-align: center;
+}
+table,
+tr,
+th,
+td {
+  border: 2px solid #fcaf02;
+  border-collapse: collapse;
+}
+tfoot {
+  background-color: #fcaf02;
+  color: black;
+}
+tfoot td {
+  border: 2px solid #000000;
+}
