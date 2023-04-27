@@ -134,11 +134,14 @@ td {
   text-align: center;
 }
 table,
-tr,
-th,
-td {
+th {
   border: 2px solid #fcaf02;
   border-collapse: collapse;
+  padding: 10px;
+}
+td {
+  border-right: 2px solid #fcaf02;
+  padding: 10px;
 }
 tfoot {
   background-color: #fcaf02;
